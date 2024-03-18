@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>ORDER PIZZA</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <script src="js/script.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>ORDER PIZZA</h1>
+
+            <form id="pizza-form">
+                <div>
+                    <!-- Crust -->
+                    <label for="crust">Crust:</label>
+                    <select id="crust" name="crust">
+                        <option value="">Choose Crust</option>
+                    </select>
+                </div>
+
+                <div>
+                    <!-- Size -->
+                    <label for="size">Size:</label>
+                    <select id="size" name="size">
+                        <option value="">Choose Size</option>
+                    </select>
+                </div>
+
+                <div>
+                    <!-- Cut -->
+                    <label for="cut">Cut:</label>
+                    <select id="cut" name="cut">
+                        <option value="">Choose Cut</option>
+                    </select>
+                </div>
+
+                <div>
+                    <!-- Day -->
+                    <label for="day">Day:</label>
+                    <select id="day" name="day">
+                        <option value="">Choose Day</option>
+                    </select>
+                </div>
+
+                <!-- Toppings -->
+                <div>
+                    <label>Toppings:</label>
+                    <div id="toppings">
+                        <!-- Toppings auto filled by script -->
+                    </div>
+                </div>
+
+                <!-- Quantity -->
+                <div>
+                    <label for="quantity">Quantity:</label>
+                    <input type="number" id="quantity" name="quantity" min="1" value="1">
+                </div>
+
+                <!-- Extra -->
+                <div>
+                    <label for="chef-instructions">Chef Instructions:</label>
+                    <textarea id="chef-instructions" name="chef-instructions" rows="2"></textarea>
+                </div>
+
+                <button type="submit">Order</button>
+            </form>
+
+            <!-- Extra -->
+            <p id="student"></p>
+            <p id="pizza"></p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    padding: 15px;
+    background-color: #ffffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+form div {
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #009bff;
+    color: #ffffffff;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #073c75;
+}
